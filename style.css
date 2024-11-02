@@ -1,0 +1,47 @@
+body {
+    background-color: #f5f5dc;
+    font-family: Arial, sans-serif;
+}
+.menu-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.menu-header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 50px;
+    color: #fff;
+    background-image: url('image/bach3.png'); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+.menu-header h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    position: relative;
+    top: -30px;
+}
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dashed #ddd;
+}
+.menu-item:last-child {
+    border-bottom: none;
+}
+.menu-item i {
+    margin-right: 15px;
+    color: #666;
+}
+.price {
+    font-weight: bold;
+}
